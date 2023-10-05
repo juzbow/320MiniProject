@@ -1,0 +1,56 @@
+body{
+    height:100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, rgb(76, 70, 105), rgb(66, 72, 195));
+    text-align: center;
+}
+hr{
+    width:58%;
+    
+}
+
+ul{
+    display:inline-block;
+    
+}
+
+
+button {
+    
+    color:white;
+    background-color: rgba(16, 11, 11, 0.753);
+    border-radius: 20px;
+    padding: 5px 15px;
+    width: 10%;
+    font-size: 12px;
+}
+
+#first-button-div{
+   padding-top:15%;
+}
+
+#second-button-div{
+    padding-bottom: 2%;
+}
+
+#second-button{
+    width:20%;
+}
+
+
+#info-container{
+    padding-left: 35%;
+    padding-top: 10%;
+}
+
+#info-div{
+    
+    align-items: center;
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    border: 5px solid #080808;
+    background: #40aace;
+    
+}
