@@ -1,0 +1,60 @@
+body{
+  height:100%;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(to right, rgb(76, 70, 105), rgb(66, 72, 195));
+  text-align: center;
+}
+hr{
+  width:58%;
+}
+
+button {
+  text-align: center;
+  color:white;
+  background-color: rgba(16, 11, 11, 0.753);
+  border-radius: 20px;
+  padding: 5px 15px;
+  width: 100px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#tasks .tasks
+{
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+}
+
+.text
+{
+  color: white;
+}
+
+li{
+  color:white;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.addButton
+{
+  width:auto;
+  margin-top:15px;
+}
+
+#new-task-input
+{
+  background: none;
+  color: white;
+  font-size: 12px;
+}
+
+#new-date-input
+{
+  background: none;
+  color:white;
+  font-size: 12px;
+}

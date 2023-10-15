@@ -1,14 +1,74 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>
 
-    </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel = "stylesheet" href = "todo.css">
+
 </head>
-
 <body>
-    <h1>Next page</h1>
-</body>
 
+  <header>
+    <h1>To Do List</h1>
+    <form id = "new-task-form">
+      <input
+        type = "text"
+        id = "new-task-input"
+        placeholder ="Add New Task"/>
+      <input
+        type = "text"
+        id = "new-date-input"
+        placeholder = "Add Date"/>
+    </form>
+    <div>
+      <button id = "add" type = "button" class = "addButton">Add Task to List</button>
+    </div>
+  </header>
+
+  <main>
+    <section class = "task-list">
+      <h2>Task List</h2>
+
+      <div id = "tasks">
+
+        <li>
+            <span>Go for a run</span>
+            <span> (Due: 10/15/23)</span>
+            <button class = "edit-button">Edit</button>
+            <button class = "delete-button">Delete</button>
+        </li>
+        <li>
+            <span>Do Laundry</span>
+            <span> (Due: 10/16/23)</span>
+            <button class = "edit-button">Edit</button>
+            <button class = "delete-button">Delete</button>
+        </li>
+        <li>
+            <span>Do Dishes</span>
+            <span> (Due: 10/19/23)</span>
+            <button class = "edit-button">Edit</button>
+            <button class = "delete-button">Delete</button>
+        </li>
+        <li>
+            <span>Finish Project</span>
+            <span> (Due: 10/23/23)</span>
+            <button class = "edit-button">Edit</button>
+            <button class = "delete-button">Delete</button>
+        </li>
+        <li>
+            <span>Write Paper</span>
+            <span> (Due: 10/27/23)</span>
+            <button class = "edit-button">Edit</button>
+            <button class = "delete-button">Delete</button>
+        </li>
+
+      </div>
+
+    </section>
+  </main>
+  
+</body>
+<script src = "todo.js"></script>
 </html>
